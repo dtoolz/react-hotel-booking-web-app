@@ -9,7 +9,7 @@
   --offWhite: #c6d3d2;
   --mainBlack: rgb(34, 34, 34);
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #a78585;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -224,7 +224,7 @@ h6 {
   width: 5rem;
   height: 5px;
   margin: 0 auto;
-  background: var(--primaryColor);
+  background: var(--darkGrey);
 }
 /* end of Title */
 
@@ -233,7 +233,7 @@ h6 {
   padding: 5rem 0;
 }
 .services {
-  background: var(--darkGrey);
+  background: var(--offWhite);
   text-align: center;
 }
 .services-center {
@@ -246,12 +246,13 @@ h6 {
 }
 .service span {
   display: inline-block;
-  color: var(--primaryColor);
+  color: var(--darkGrey);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
