@@ -5,6 +5,7 @@ import Room from './Room'
 import Title from './Title'
 
 export default class FeaturedRooms extends Component {
+    //to access the context
     static contextType = RoomContext;
     render() {
         //getting a room object each from contextjs
