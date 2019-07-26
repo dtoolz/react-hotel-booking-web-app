@@ -11,7 +11,7 @@ export default function Home() {
         // empty angle brackets same as React.Fragment
         <> 
         <Hero>
-            <Banner title="Quality Rooms" subtitle="Deluxe Rooms starts at $150 minimum" >
+            <Banner title="Quality Rooms" subtitle="Single Economy starts at $100 minimum" >
                <Link to="/rooms" className="btn-primary">
                  Available Rooms
                </Link>
